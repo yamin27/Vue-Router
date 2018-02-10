@@ -5,11 +5,14 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# clone the project
+git clone git@github.com:yamin27/Vue-Router.git
+
+# Nevigate to project and install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run dev or npm start
 
 # build for production with minification
 npm run build
