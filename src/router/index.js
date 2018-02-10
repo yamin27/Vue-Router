@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Test from '../components/Test'
+import Coins from '../components/Coins'
 
 Vue.use(Router)
 
@@ -26,7 +27,12 @@ export default new Router({
       },
       {
         path: '/test',
-          component: Test
+        component: Test
+      },
+      {
+        path: '/coins/:id',
+        name: 'Coins',
+        component: Coins
       }
   ]
 })

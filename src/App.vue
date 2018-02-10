@@ -5,6 +5,8 @@
     <router-link to="/about">About</router-link>
     <router-link to="/contact">Contact</router-link>
     <router-link to="/test">Test</router-link>
+    <router-link to="/coins/ethereum">Ethereum</router-link>
+    <router-link to="/coins/bitcoin">Bitcoin</router-link>
 
     <img src="./assets/logo.png">
     <router-view/>
